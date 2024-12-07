@@ -1,7 +1,8 @@
 # STOCK PATTERN RECOGNITION DATASET
 
 Here is the complete dataset in ZIP Format.
-The code cannot be provided as the model was a cooporate project,
+
+Unfortunately the code cannot be provided as the model was a corporate project,
 but the training data is gathered form public source and can be distributed.
 
 This file contains several files which are numpy 1-D array in binary format.
