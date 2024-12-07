@@ -1,0 +1,2 @@
+# patternrecognition
+STOCK PATTERN RECOGNITION DATASET
