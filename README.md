@@ -36,7 +36,7 @@ Normalization can be as simple as `ARRAY/ARRAY.mean()`, avoid using complex norm
 __Some about training:__
 Due to variable length model need to include `LSTM` layer with `Embedding` layer as input.
 
-Values other than <PATTERN> are useless for training purpose, these are included to avoid naming conflit in the data generation algorithm.
+Values other than <PATTERN> are useless for training purpose, these are included to avoid naming conflict in the data generation algorithm.
 After which you can filter the pattern (or patterns for categorical classification) from dataframe.
 
 For training a binary classification model use 1:1 ratio for both dataset.
