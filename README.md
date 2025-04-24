@@ -5,7 +5,7 @@ Here is the complete dataset in ZIP Format.
 Unfortunately the code cannot be provided as the model was a corporate project,
 but the training data is gathered form public source and can be distributed.
 
-This file contains several files which are numpy 1-D array in binary format.
+This file contains several files which are float64 numpy 1-D array in binary format.
 These files are generated from `numpy.ndarray.tobytes()` to directly write inside ZIP stream.
 
 File includes 37 different patterns although number of dataset per pattern are variable.
