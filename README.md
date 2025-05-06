@@ -13,7 +13,7 @@ Recommended dataset size for better training is >300.
 
 Values are seprated by "\_GAP\_" string which can be easily converted back into list by `pd.Series().str.split()` like:
 ``` python
-with zipfile.ZipFile(DATASET.zfs, "r") as ZFILE:
+with zipfile.ZipFile("DATASET.zfs", "r") as ZFILE:
     PATTERNDF=pd.Series([F.filename for F in ZFILE.infolist()])
 PATTERNDF=PATTERNDF.str.split("_GAP_", expand=True)
 ```
